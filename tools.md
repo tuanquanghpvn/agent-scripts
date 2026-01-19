@@ -1,6 +1,6 @@
 # Tools Reference
 
-CLI tools available on Peter's machines. Use these for agentic tasks.
+CLI tools available on Quang's machines. Use these for agentic tasks.
 
 ## bird 🐦
 Twitter/X CLI for posting, replying, reading tweets.

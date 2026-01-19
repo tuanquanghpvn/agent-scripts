@@ -1,10 +1,10 @@
 ---
 name: domain-dns-ops
 description: >
-  Domain/DNS ops across Cloudflare, DNSimple, Namecheap for Peter. Use for onboarding zones to Cloudflare, flipping nameservers, setting redirects (Page Rules/Rulesets/Workers), updating redirect-worker mappings, and verifying DNS/HTTP. Source of truth: ~/Projects/manager.
+  Domain/DNS ops across Cloudflare, DNSimple, Namecheap for Quang. Use for onboarding zones to Cloudflare, flipping nameservers, setting redirects (Page Rules/Rulesets/Workers), updating redirect-worker mappings, and verifying DNS/HTTP. Source of truth: ~/Projects/manager.
 ---
 
-# Domain/DNS Ops (Peter)
+# Domain/DNS Ops (Quang)
 
 This skill is a thin router: use `~/Projects/manager` as truth, run the repo scripts, follow the checklists.
 

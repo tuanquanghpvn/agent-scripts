@@ -1,12 +1,12 @@
 # AGENTS.MD
 
-Peter owns this. Start: say hi + 1 motivating line.
+Quang owns this. Start: say hi + 1 motivating line.
 Work style: telegraph; noun-phrases ok; drop grammar; min tokens.
 
 ## Agent Protocol
-- Contact: Peter Steinberger (@steipete, steipete@gmail.com).
-- Workspace: `~/Projects`. Missing steipete repo: clone `https://github.com/steipete/<repo>.git`.
-- 3rd-party/OSS (non-steipete): clone under `~/Projects/oss`.
+- Contact: Quang (@tuanquanghpvn, tuanquanghpvn@gmail.com).
+- Workspace: `~/Projects`. Missing tuanquanghpvn repo: clone `https://github.com/tuanquanghpvn/<repo>.git`.
+- 3rd-party/OSS (non-tuanquanghpvn): clone under `~/Projects/oss`.
 - `~/Projects/manager`: private ops (domains/DNS, redirects/workers, runbooks).
 - “MacBook” / “Mac Studio” => SSH there; find hosts/IPs via `tailscale status`.
 - Files: repo or `~/Projects/agent-scripts`.
@@ -24,7 +24,7 @@ Work style: telegraph; noun-phrases ok; drop grammar; min tokens.
 - New deps: quick health check (recent releases/commits, adoption).
 - Slash cmds: `~/.codex/prompts/`.
 - Web: search early; quote exact errors; prefer 2024–2025 sources; fallback Firecrawl (`pnpm mcp:*`) / `mcporter`.
-- Oracle: run `npx -y @steipete/oracle --help` once/session before first use.
+- Oracle: run `npx -y @tuanquanghpvn/oracle --help` once/session before first use.
 - Style: telegraph. Drop filler/grammar. Min tokens (global AGENTS + replies).
 
 ## Screenshots (“use a screenshot”)
@@ -35,10 +35,10 @@ Work style: telegraph; noun-phrases ok; drop grammar; min tokens.
 - Replace asset; keep dimensions; commit; run gate; verify CI.
 
 ## Important Locations
-- Blog repo: `~/Projects/steipete.me`
+- Blog repo: `~/Projects/tuanquanghpvn.me`
 - Notes/Runbooks: `~/Projects/manager/docs/` (e.g. `mac-studio.md`, `mac-vm.md`)
-- OpenAI/Codex limits tracking: `~/Documents/steipete/codex limits.md`
-- Obsidian vault: `$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/steipete-notes`
+- OpenAI/Codex limits tracking: `~/Documents/tuanquanghpvn/codex limits.md`
+- Obsidian vault: `$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/tuanquanghpvn-notes`
 - Sparkle keys: `~/Library/CloudStorage/Dropbox/Backup/Sparkle`
 
 ## Docs
@@ -46,7 +46,7 @@ Work style: telegraph; noun-phrases ok; drop grammar; min tokens.
 - Follow links until domain makes sense; honor `Read when` hints.
 - Keep notes short; update docs when behavior/API changes (no ship w/o docs).
 - Add `read_when` hints on cross-cutting docs.
-- Model note (2025-11-23): no `gpt-5.1-pro` / `grok-4.1` on Peter’s keys yet.
+- Model note (2025-11-23): no `gpt-5.1-pro` / `grok-4.1` on Quang’s keys yet.
 - Model preference: latest only. OK: Anthropic Opus 4.5 / Sonnet 4.5 (Sonnet 3.5 = old; avoid), OpenAI GPT-5.2, xAI Grok-4.1 Fast, Google Gemini 3 Flash.
 
 ## PR Feedback
@@ -142,7 +142,7 @@ Read `~/Projects/agent-scripts/tools.md` for the full tool catalog if it exists.
 
 ### oracle
 - Bundle prompt+files for 2nd model. Use when stuck/buggy/review.
-- Run `npx -y @steipete/oracle --help` once/session (before first use).
+- Run `npx -y @tuanquanghpvn/oracle --help` once/session (before first use).
 
 ### mcporter / iterm / firecrawl / XcodeBuildMCP
 - MCP launcher: `npx mcporter <server>` (see `npx mcporter --help`). Common: `iterm`, `firecrawl`, `XcodeBuildMCP`.
